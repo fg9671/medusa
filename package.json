@@ -52,6 +52,7 @@
     "*.{md,yaml,yml}": "prettier --write"
   },
   "scripts": {
+    "start": "medusa develop",
     "hooks:install": "husky install",
     "hooks:uninstall": "husky uninstall",
     "build": "turbo run build --concurrency=50% --no-daemon",
